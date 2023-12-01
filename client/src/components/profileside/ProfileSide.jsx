@@ -1,16 +1,16 @@
-import React from 'react'
-import LogoSearch from '../LogoSearch/LogoSearch'
-import ProfileCard from '../ProfileCard/ProfileCard'
-import './ProfileSide.css'
-import FollowersCard from '../FollowersCard/FollowersCard'
+import React from "react";
+import LogoSearch from "../LogoSearch/LogoSearch";
+import ProfileCard from "../ProfileCard/ProfileCard";
+import "./ProfileSide.css";
+import FollowersCard from "../FollowersCard/FollowersCard";
 const ProfileSide = () => {
   return (
-   <div className="ProfileSide">
-   <LogoSearch />
-   <ProfileCard/>
-   <FollowersCard/>
-   </div>
-  )
-}
+    <div className="ProfileSide">
+      <LogoSearch />
+      <ProfileCard location={"homePage"} />
+      <FollowersCard />
+    </div>
+  );
+};
 
-export default ProfileSide
+export default ProfileSide;

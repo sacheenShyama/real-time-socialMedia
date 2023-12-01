@@ -44,6 +44,11 @@
   transition: all 100ms ease-out;
 }
 
+.button:disabled{
+  background: silver;
+  pointer-events: none;
+}
+
 .button:hover{
   cursor: pointer;
   color: var(--orange);
